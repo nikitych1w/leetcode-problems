@@ -41,15 +41,15 @@ func checkBrackets(src string) bool {
 	return true
 }
 
-func main() {
-	/*
-		()
-		()(){}[]
-		[][{}
-		(
-		{[][{}]}
-	*/
-
-	source := "{[][{}]}"
-	fmt.Printf("string '%s' is balanced: %t", source, checkBrackets(source))
-}
+//func main() {
+//	/*
+//		()
+//		()(){}[]
+//		[][{}
+//		(
+//		{[][{}]}
+//	*/
+//
+//	source := "{[][{}]}"
+//	fmt.Printf("string '%s' is balanced: %t", source, checkBrackets(source))
+//}
