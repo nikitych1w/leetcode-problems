@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/nikitych1w/leetcode-problems/containers"
+)
 
 func checkBrackets(src string) bool {
-	stack := NewStack()
+	stack := containers.NewStack()
 	var symb = map[string]string{}
 
 	symb["("] = ")"
